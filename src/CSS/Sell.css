@@ -1,0 +1,45 @@
+th{
+    text-align: left;
+    color: rgb(221, 156, 170);
+}
+td{
+    color: rgb(221, 156, 170);
+}
+.title{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(224, 93, 93);
+    filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+}
+select{
+    width: 200px;
+}
+textarea{
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+    resize: none;
+}
+button{
+    text-align: center;
+}
+.sellBack{
+    background-image: url("../Images/loginback2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+    
+}
+table{
+    background-color: rgb(24, 21, 21);
+    border-radius: 20px;
+    
+    
+}
+input,textarea,select{
+    filter: drop-shadow(0 0 0.0rem rgb(255, 255, 255));
+}
