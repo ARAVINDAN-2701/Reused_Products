@@ -46,7 +46,7 @@ input,textarea,select{
 
 @media screen and (max-width : 400px ) {
     table{
-        width: 200px; 
+        width: 300px; 
     } 
     input,textarea,select{
        width: 100px;
