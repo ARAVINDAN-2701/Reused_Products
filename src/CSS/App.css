@@ -100,3 +100,52 @@ h5{
 .loginContents button:hover{
   filter: drop-shadow(0 0 0.75rem rgb(255, 35, 35));
 }
+@media screen and (max-width : 600px) {
+  .Login img{
+    height: 150px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+
+  }
+  .LogBox{
+    
+    width:270px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+  .Login{
+    height:800px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+  }
+  .logsignButton Button{
+    width:135px;
+  }
+}
+@media screen and (min-width : 600px) and (max-width : 1000px) {
+  .Login img{
+    height: 250px;
+    margin-top: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+
+  }
+  .LogBox{
+    
+    width:370px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+ 
+  .logsignButton Button{
+    width:185px;
+  }
+}

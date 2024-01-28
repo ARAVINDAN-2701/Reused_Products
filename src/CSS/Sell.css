@@ -35,11 +35,29 @@ button{
     
 }
 table{
-    background-color: rgb(24, 21, 21);
+    background-color: rgb(0, 0, 0);
     border-radius: 20px;
-    
+    filter: drop-shadow(0 0 1rem rgb(0, 0, 0));
     
 }
 input,textarea,select{
     filter: drop-shadow(0 0 0.0rem rgb(255, 255, 255));
 }
+
+@media screen and (max-width : 400px ) {
+    table{
+        width: 200px; 
+    } 
+    input,textarea,select{
+       width: 100px;
+    }
+    th{
+        font-size: 10px;
+    }
+    .title{
+        font-size: 20px;
+        
+    }
+
+}
+
